@@ -1269,7 +1269,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #7a0993;
+  background: #ff2aff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2764,6 +2764,15 @@ body .menu .menu-item a {
 }
 body .menu .menu-item a:hover {
   color: #ff106c;
+  border-bottom-color: #ff106c;
+}
+body .menu .menu-item a {
+  color: #fff;
+}
+body .menu .menu-item a {
+  font-size: 1.4em;
+}
+body .menu .menu-item a:hover {
   border-bottom-color: #ff106c;
 }
 body #header {
