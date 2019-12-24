@@ -1269,7 +1269,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff2bcf;
+  background: #2220e7;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2779,14 +2779,6 @@ body .menu .menu-item .badge {
   white-space: nowrap;
   background-color: rgba(169,166,166,0.329);
 }
-body .posts-expand .post-title-link {
-  display: inline-block;
-  position: relative;
-  color: #fff;
-  border-bottom: none;
-  line-height: 1.2;
-  vertical-align: top;
-}
 body #header {
   padding: 25px 25px;
   margin: 0 auto;
@@ -2806,6 +2798,15 @@ body #footer {
 }
 body .main {
   margin-bottom: 45px;
+}
+element.style {
+  background-color: #43413f;
+  color: #fff;
+}
+.btn:hover {
+  border-color: #fff;
+  color: #222;
+  background: #fff;
 }
 .btn {
   margin-top: 2em;
