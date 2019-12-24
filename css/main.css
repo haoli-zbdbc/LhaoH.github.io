@@ -1269,7 +1269,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #0dd205;
+  background: #ff74ee;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2769,6 +2769,9 @@ body .menu .menu-item a:hover {
 body .menu .menu-item a {
   color: #fff;
 }
+body .menu .menu-item a {
+  font-size: 1.4em;
+}
 body .menu .menu-item .badge {
   display: inline-block;
   padding: 0.1em 0.4em;
@@ -2798,11 +2801,6 @@ body #footer {
 }
 body .main {
   margin-bottom: 45px;
-}
-.use-motion .post-block,
-.use-motion .pagination,
-.use-motion .comments {
-  opacity: 0;
 }
 .btn {
   margin-top: 2em;
