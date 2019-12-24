@@ -1269,7 +1269,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #2220e7;
+  background: #0dd205;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2799,14 +2799,10 @@ body #footer {
 body .main {
   margin-bottom: 45px;
 }
-element.style {
-  background-color: #43413f;
-  color: #fff;
-}
-.btn:hover {
-  border-color: #fff;
-  color: #222;
-  background: #fff;
+.use-motion .post-block,
+.use-motion .pagination,
+.use-motion .comments {
+  opacity: 0;
 }
 .btn {
   margin-top: 2em;
